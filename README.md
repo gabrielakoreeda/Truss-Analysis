@@ -2,7 +2,19 @@
 This code written in Python analyses a 2D truss given an input file (.fem) that follows the following pattern and just like the example upload.
 
 *COORDINATES  
-6
+6  
+
+1 0.0 0.0
+
+2 0.0 4.0
+
+3 3.0 0.0
+
+4 3.0 4.0
+
+5 6.0 0.0
+
+6 6.0 4.0
 
 *ELEMENT_GROUPS
  
