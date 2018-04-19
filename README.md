@@ -1,6 +1,7 @@
 # Truss-Analysis
 This code written in Python analyses a 2D truss given an input file (.fem) that follows the following pattern and just like the example upload.
-#*COORDINATES  
+
+*COORDINATES  
 
 *ELEMENT_GROUPS
  
