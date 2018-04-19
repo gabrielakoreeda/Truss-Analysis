@@ -1,7 +1,7 @@
 # Truss-Analysis
 This code written in Python analyses a 2D truss given an input file (.fem) that follows the following pattern and just like the example upload.
 
-*COORDINATES  
+<b>*COORDINATES<b>  
 
 6  
 
@@ -17,7 +17,7 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 6 6.0 4.0
 
-*ELEMENT_GROUPS
+<b>*ELEMENT_GROUPS<b>
 
 3
 
@@ -47,7 +47,7 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 9 5 4
 
-*MATERIALS
+<b>*MATERIALS<b>
 
 3
 
@@ -57,7 +57,7 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 70E9  85E6  56E6   
 
-*GEOMETRIC_PROPERTIES
+<b>*GEOMETRIC_PROPERTIES<b>
 
 3
 
@@ -67,7 +67,7 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 3E-4 
 
-*BCNODES
+<b>*BCNODES<b>
 
 5
 
@@ -81,7 +81,7 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 5 2
 
-*LOADS
+<b>*LOADS<b>
 
 4
 
@@ -95,7 +95,7 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 The code then calculates the strains, stress, reaction forces and displacements of each element of the truss and outputs these results in an output file like the following.
 
-*DISPLACEMENTS
+<b>*DISPLACEMENTS<b>
 
 1 0.0000 0.0000
 
@@ -109,7 +109,7 @@ The code then calculates the strains, stress, reaction forces and displacements 
 
 6 0.0014 -0.0013
 
-*ELEMENT_STRAINS
+<b>*ELEMENT_STRAINS<b>
 
 1 -2.380952e-04
 
@@ -129,7 +129,7 @@ The code then calculates the strains, stress, reaction forces and displacements 
 
 9 -2.696217e-04
 
-*ELEMENT_STRESSES
+<b>*ELEMENT_STRESSES<b>
 
 1 -5.000000e+07
 
@@ -149,7 +149,7 @@ The code then calculates the strains, stress, reaction forces and displacements 
 
 9 -1.887352e+07
 
-*REACTION_FORCES
+<b>*REACTION_FORCES<b>
 
 1 FX = 3.972332e+02
 
