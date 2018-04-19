@@ -3,9 +3,9 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 <b>*COORDINATES</b>  
 
-6  
+6 #number of nodes
 
-1	0.0 0.0
+1	0.0 0.0 #node number  x coordinate  y coordinate
 
 2 0.0 4.0
 
@@ -17,9 +17,9 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 6 6.0 4.0
 
-<b>*ELEMENT_GROUPS</b>
+<b>*ELEMENT_GROUPS</b> 
 
-3
+3 #groups of elements with equal properties
 
 1 3
 
@@ -29,7 +29,7 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 <b>*INCIDENCES</b>
 
-1 1 2
+1 1 2 #element number between node 1 and 2
 
 2 3 4
 
@@ -49,9 +49,9 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 <b>*MATERIALS</b>
 
-3
+3 #number of materials
 
-210E9 120E6 80E6
+210E9 120E6 80E6 # Youngs module  admissible tensile stress admissiblecompressive stress
 
 80E9  70E6  60E6
 
