@@ -5,7 +5,7 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 6  
 
-1 0.0 0.0
+1	0.0 0.0
 
 2 0.0 4.0
 
