@@ -51,7 +51,7 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 3 #number of materials
 
-210E9 120E6 80E6 # Youngs module  admissible tensile stress admissiblecompressive stress
+210E9 120E6 80E6 # Youngs module   admissible tensile stress   admissible compressive stress
 
 80E9  70E6  60E6
 
@@ -61,7 +61,7 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 3
 
-1E-4
+1E-4 # Cross section area
 
 2E-4
 
@@ -69,7 +69,7 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 
 <b>*BCNODES</b>
 
-5
+5 #nodes for which the degrees of freedom are prescribed with zero value
 
 1 1 
 
