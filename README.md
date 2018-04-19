@@ -2,6 +2,7 @@
 This code written in Python analyses a 2D truss given an input file (.fem) that follows the following pattern and just like the example upload.
 
 *COORDINATES  
+6
 
 *ELEMENT_GROUPS
  
@@ -16,7 +17,20 @@ This code written in Python analyses a 2D truss given an input file (.fem) that 
 *LOADS
 
 The code then calculates the strains, stress, reaction forces and displacements of each element of the truss and outputs these results in an output file like the following.
+
 *DISPLACEMENTS
+
+1 0.0000 0.0000
+
+2 0.0010 -0.0010
+
+3 0.0000 0.0000
+
+4 0.0010 -0.0009
+
+5 0.0000 0.0000
+
+6 0.0014 -0.0013
 
 *ELEMENT_STRAINS
 
