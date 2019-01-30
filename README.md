@@ -13,8 +13,13 @@ The essential calculations are made to obtain the values of the strains, stress,
 
 ### Post-Processing
 In the post-processing phase, plots are generated to better visualize the results. Also the output file is written.
-![graph 1](https://github.com/gabrielakoreeda/Truss-Analysis/blob/master/Resources/trussfig1.png)
-![graph 2](https://github.com/gabrielakoreeda/Truss-Analysis/blob/master/Resources/trussfig2.png)
+Below, are some graphs examples:
+
+<p align="center"> 
+  <img src="https://github.com/gabrielakoreeda/Truss-Analysis/blob/master/Resources/trussfig1.png">
+  <img src="https://github.com/gabrielakoreeda/Truss-Analysis/blob/master/Resources/trussfig2.png">
+</p>
+
 ## truss2d.py
 This code analyses a simple truss under concentrated loads.
 
