@@ -13,8 +13,8 @@ The essential calculations are made to obtain the values of the strains, stress,
 
 ### Post-Processing
 In the post-processing phase, plots are generated to better visualize the results. Also the output file is written.
-![graph 1](Truss-Analysis/Resources/trussfig1.png)
-![graph 2](Truss-Analysis/Resources/trussfig2.png)
+![graph 1](https://github.com/gabrielakoreeda/Truss-Analysis/blob/master/Resources/trussfig1.png)
+![graph 2](https://github.com/gabrielakoreeda/Truss-Analysis/blob/master/Resources/trussfig2.png)
 ## truss2d.py
 This code analyses a simple truss under concentrated loads.
 
@@ -24,4 +24,4 @@ This code is a slight modification of the truss2d.py. It iterates over a maximum
 This code analysis a truss that is under concentrated loads as well as distributed loads and momentum.
 
 ## Links
-The complete study can be found in this link [TG](Truss-Analysis/Resources/TG_II.pdf).
+The complete study can be found in this link [TG](https://github.com/gabrielakoreeda/Truss-Analysis/blob/master/Resources/TG_II.pdf).
