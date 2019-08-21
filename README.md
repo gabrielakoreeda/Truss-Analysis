@@ -1,5 +1,5 @@
 # Truss-Analysis
-This project applies the Finite Elements Method in the analysis of a truss and a portico type of structure. These codes were originally written as part of my undergraduate thesis at the State University of Campinas and are know public available so to stimulate the applications of the Python language in Mechanical Engineering projects.
+This project applies the Finite Elements Method in the analysis of a truss and a portico type of structure. These codes were originally written as part of my undergraduate thesis at the State University of Campinas and are now public available so to stimulate the applications of the Python language in Mechanical Engineering projects.
 
 ## Introduction
 There are three different codes written in Python. All of them require a input file of extension ".fem" which contains the properties of the structure. They also return a file ".out" that presents the  calculated strains, stress, reaction forces and displacements of each element.
